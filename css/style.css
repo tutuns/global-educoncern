@@ -114,3 +114,23 @@ ul.offer-inner {
     display: inline-block;
     margin: 0 auto;
 }
+.signup{
+	width: 100%;
+	height:auto;
+	display:table;
+	background:url(../images/s2.jpg) left center no-repeat;
+}
+.s-list{
+	margin:0;
+	padding:0;
+	list-style: none;
+	
+}
+.s-list > li{
+	display: inline-block;
+	vertical-align: middle;
+}
+.s-icon{
+	display:block;
+	background:rgba(255,255,255,0.9);
+}
