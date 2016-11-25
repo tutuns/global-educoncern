@@ -87,3 +87,30 @@ body .brand * {
 	width:100%;
 	height:auto;
 }
+.offer {
+    display: table;
+    width: 100%;
+    margin: 15px 0;
+}
+ul.offer-inner {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.o-img-wrapper {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: white;
+    text-align: center;
+    line-height: 58px;
+    border-radius: 50%;
+    margin: 10px 15px 0 0;
+    border: solid 1px #000;
+}
+.o-img-wrapper img {
+    width: 40px;
+    display: inline-block;
+    margin: 0 auto;
+}
