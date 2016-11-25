@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+body, html, *{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.header, .main, .footer{
+	width: 100%;
+	height: auto;
+}
+body .bdrs0{
+	border-radius: 0;
+}
+body .mrg0{
+	margin: 0;
+}
+.call-menu {
+    position: relative;
+    left: -16px;
+    background: #fff;
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 21px;
+    bottom: -1px;
+    top: 0;
+    color: #000;
+    display: table;
+	float: left;
+}
+.brand {
+    display: table;
+    padding-left: 30px;
+}
+.brand-logo {
+    padding-top: 0;
+	padding-bottom: 0;
+}
+.brand-logo img {
+    height: auto;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+body .header .navbar{
+	background:#343e48;
+	border:none;
+}
+body .brand * {
+    color: #fff!important;
+}
+
+.t-contact {
+    color: #fff;
+    display: inline-block;
+    float: right;
+    margin: 15px 15px 0 0;
+}
+.enquiry {
+    display: table;
+    float: right;
+    margin: 8px 15px 0 15px;
+}
+.enquiry *{
+    background: #00b4e4;
+    color: #fff;
+}
+.enquiry *:hover, .enquiry *:active, .enquiry *:focus, .enquiry *.active{
+	outline: none;
+	 color: #fff;
+}
+.navbar-header{
+	position: relative;
+}
+.slider{
+	width: 100%;
+	height:auto;
+	display: table;
+}
+.slider img{
+	width:100%;
+	height:auto;
+}
