@@ -118,19 +118,125 @@ ul.offer-inner {
 	width: 100%;
 	height:auto;
 	display:table;
-	background:url(../images/s2.jpg) left center no-repeat;
+	background:url(../images/s2.jpg) left top no-repeat;
+	background-attachment:fixed;
 }
-.s-list{
-	margin:0;
-	padding:0;
-	list-style: none;
-	
+.s-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 .s-list > li{
 	display: inline-block;
 	vertical-align: middle;
 }
-.s-icon{
-	display:block;
-	background:rgba(255,255,255,0.9);
+.s-icon {
+    display: block;
+    background: rgba(255,255,255,0.9);
+    padding: 5px;
+}
+.s-text {
+    color: #fff;
+    padding: 0 25px;
+}
+.s-btn {
+    background: #00b4e4;
+    color: #fff;
+    border-color: #00b4e4;
+}
+.s-btn:hover, .s-btn:active, .s-btn:focus{
+	color: #fff;
+	background: #00b4e4;
+	
+}
+.university{
+	width:100%;
+	height:auto;
+	display: table;
+}
+.u-example {
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container-full{
+	display: block;
+}
+.u-block {
+    display: flex;
+    flex-direction: row;
+}
+.u-block-img {
+    overflow: hidden;
+    width: 50%;
+    display: block;
+    flex: 1;
+    min-height: 200px;
+    max-height: 228px;
+	position:relative;
+}
+.u-block-text {
+    flex: 1;
+    position: relative;
+    padding: 10px 30px;
+    background: #00b4e5;
+    min-height: 200px;
+    max-height: 228px;
+}
+.u-link {
+    position: absolute;
+    top: 50%;
+    background: #343e48;
+    color: #fff;
+    padding: 5px;
+    left: -20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 32px;
+    transform: translate(0, -50%);
+	transition: all 0.3s ease;
+}
+.u-link:hover, .u-link:active, .u-link:focus{
+	background:#fff;
+}
+.block-text > *{
+	color:#fff;
+}
+.u-block-img:after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background: url(../images/sh1.png) left bottom;
+    width: 800px;
+    height: 100px;
+	transition:all 0.3s ease;
+	opacity:0;
+}
+.u-block-img:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: url(../images/sh2.png) left top;
+    width: 800px;
+    height: 100px;
+	transition:all 0.3s ease;
+	opacity:0;
+}
+.u-block-img:hover + .u-block-img:before, .u-block-img:hover + .u-block-img:after{
+	opacity:1;
+}
+.container-full > .row > div[class*="col-md"]{
+	padding:0;
+	margin:0;
 }
